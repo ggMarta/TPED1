@@ -1,0 +1,73 @@
+.contenido{
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+}
+header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.texto{
+    color: rgb(74, 75, 78);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+ul{
+    list-style-type:none;
+}
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(169, 174, 179);
+    font-weight: bold;
+
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: lighter;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 40pt;
+}
+footer{
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+
+}
+.margen{
+    background-color: rgb(19, 59, 75);
+    height: 50px;
+   /* color: white;
+    text-align: center;*/
+
+}
+#fecha{
+    font-size: 9pt;
+    margin-top: 40pt;
+}
+.socialmedia{
+    border-radius: 50%;
+}
+#principio::first-letter{
+    font-size: 70pt;
+    float: left;
+    font-weight:bold ;
+}
+li{
+    margin-bottom: 20pt;
+}
+.otros{
+    display: inline-block;
+    margin-bottom: 10pt;
+    color: rgb(169, 174, 179);
+}
+b{
+    text-decoration: underline;
+}
+/* saber por qué las imágenes se van al margen izquierdo
+Lo destacado del texto es con <b> o son enlaces>?
+cómo poner las fotografías con enlaces (redes sociales)?
+ */
