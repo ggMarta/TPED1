@@ -1,0 +1,42 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+body{
+width: 80%;
+}
+header{
+    margin: 10%;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+#ContenedorFlex{
+    width: 90%;
+    height: 50vh;
+
+
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+align-content: space-evenly;
+background-color:black;
+justify-content: space-between;
+
+}
+
+
+.ElementoFlex{
+ width: 23%;
+    height: 50%; 
+    background-color:white;
+    margin: 5px;
+
+}
