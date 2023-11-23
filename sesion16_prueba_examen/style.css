@@ -1,0 +1,97 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+main {
+    height: 80vh;
+    width: 100%;
+    background-image: url(imagenes/fondo-1400x860.jpg);
+
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+header img {
+    height: 100%;
+}
+
+
+.logo {
+    width: 45%;
+    height: 100%;
+    
+}
+
+.menu {
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline;
+   margin: 1em;
+    color: lightgray;
+}
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.A {
+    width: 45%;
+    margin-top: 10%;
+    
+}
+
+h1{
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.text1 {
+    padding-left: 10%;
+
+}
+button{
+    background-color: rgb(25, 90, 212);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.B {
+    width: 45%;
+    padding-top: 32%;
+    padding-left: 10vw;
+    margin-right: 10vw;
+}
+
+.B img {
+    height: 1.5em;
+    width: auto;
+
+}
+
+.B a:link{
+color: black;
+font-size: 1.5em;
+}
+
+footer {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+}
+
