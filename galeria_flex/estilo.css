@@ -1,0 +1,38 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+
+header{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(250, 233, 218);
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    font-size: 1em;
+    text-align: center;
+}
+
+.galeria{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    
+   
+}
+.elementoflex{
+    flex: 30%;
+    margin-left: 0.5%;
+    min-width: 300px;
+    margin-top: 0%;
+    
+}
+img {
+    width: 100%;
+}
