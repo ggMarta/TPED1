@@ -1,0 +1,95 @@
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+}
+
+
+nav{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(19, 59, 75);
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    position: relative;
+    right: 7px;
+}
+
+
+
+header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+#fecha{
+    font-size: 9pt;
+    margin-top: 40pt;
+}
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(169, 174, 179);
+    font-weight: bold;
+}
+.socialmedia{
+    border-radius: 50%;
+}
+
+
+#informacion{
+    color: rgb(74, 75, 78);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 40pt;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: lighter;
+}
+#principio::first-letter{
+    font-size: 70pt;
+    float: left;
+    font-weight:bold ;
+}
+b{
+    text-decoration: underline;
+}
+#informacion img{
+    width: 120%;
+ }
+ ul{
+    list-style-type:none;
+}
+li{
+    margin-bottom: 20pt;
+}
+
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+footer li{
+    display: inline-block;
+    margin-bottom: 10pt;
+    color: rgb(169, 174, 179);
+}
+
