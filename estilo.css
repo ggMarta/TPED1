@@ -27,17 +27,17 @@ h1 {
     align-items: center;
     align-content: space-evenly;
     background-color: black;
-    justify-content: space-between;
+    justify-content:space-between;
     border-radius: 20px;
 
 }
 
 
 .ElementoFlex {
-    width: 18%;
+    width: 13%;
     height: 70%;
     background-color: white;
-    margin: 5px;
+    margin: 15px;
 border-radius: 10%;
-padding: 7%;
+padding: 4%;
 }

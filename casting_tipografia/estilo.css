@@ -1,0 +1,64 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.elementoflex1{
+    width: 33%;
+    height: 30%;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+.elementoflex2{
+    width: 33%;
+    height: 30%;
+    font-family: 'DM Serif Display', serif;
+}
+
+.elementoflex3{
+    width: 33%;
+    height: 30%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.elementoflex4{
+    width: 33%;
+    height: 30%;
+    font-family: 'Abril Fatface', serif;
+}
+
+.elementoflex5{
+    width: 33%;
+    height: 30%;
+    font-family: 'DM Mono', monospace;
+}
+
+.elementoflex6{
+    width: 33%;
+    height: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.elementoflex7{
+    width: 33%;
+    height: 30%;
+
+}
+
+.elementoflex8{
+    width: 33%;
+    height: 30%;
+    
+}
+
+.elementoflex9{
+    width: 33%;
+    height: 30%;
+    
+}
+
