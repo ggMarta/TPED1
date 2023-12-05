@@ -1,3 +1,18 @@
+@font-face {
+    font-family: CHARLEY;
+    src: url(fuentes/CHARLEY.otf);
+}
+
+@font-face {
+    font-family: MagistralBlack;
+    src: url(fuentes/MagistralBlack.otf);
+}
+
+@font-face {
+    font-family: meditative;
+    src: url(fuentes/meditative.otf);
+}
+
 main{
     width: 100%;
     height: 100vh;
@@ -47,18 +62,19 @@ main{
 .elementoflex7{
     width: 33%;
     height: 30%;
-
+    font-family: meditative;
 }
+
 
 .elementoflex8{
     width: 33%;
     height: 30%;
-    
+    font-family: MagistralBlack;
 }
 
 .elementoflex9{
     width: 33%;
     height: 30%;
-    
+    font-family: CHARLEY;
 }
 
