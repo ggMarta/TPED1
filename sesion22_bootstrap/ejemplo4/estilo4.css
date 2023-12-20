@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    background-color: brown;
+    height: 20vh;
+}
+
+#izquierda{
+    background-color: aquamarine;
+    height: 70vh;
+}
+
+#derecha{
+    background-color: beige;
+    height: 70vh;
+
+}
+
+#pie{
+    background-color: black;
+    height: 10vh;
+}

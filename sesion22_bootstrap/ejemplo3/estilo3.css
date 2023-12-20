@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#grande{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+#arriba{
+    background-color: blue;
+    height: 30vh;
+}
+
+#abajo{
+    background-color:beige;
+    height: 70vh;
+}

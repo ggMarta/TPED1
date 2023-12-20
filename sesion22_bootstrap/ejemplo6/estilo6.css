@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#izquierda{
+    background-color: aqua;
+    height: 90vh;
+    
+}
+#vacio{
+   background-color: white;
+    height: 20vh;
+}
+
+
+
+#centro{
+    height: 90vh;
+}
+#logo{
+    background-color: brown;
+    height: 20vh;
+}
+#cuerpo{
+    background-color: blanchedalmond;
+    height: 60vh;
+}
+#pie{
+    background-color: black;
+    height: 10vh;
+}
+
+
+
+#derecha{
+    background-color: blue;
+    height: 90vh;
+}
