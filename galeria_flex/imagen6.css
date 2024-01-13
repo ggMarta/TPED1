@@ -1,0 +1,18 @@
+*{
+   box-sizing: border-box;
+   margin: auto;
+}
+
+img{
+    margin-left: 30%;
+     /*margin: auto;*/
+    width: 70vh;
+    margin-bottom: 4%;
+}
+
+div{
+    width: 50vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-bottom: 4%;
+}
