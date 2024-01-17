@@ -1,0 +1,50 @@
+*{
+   margin: auto; 
+}
+
+
+nav{
+    background-color: beige;
+    height: 10vh;
+}
+
+#titulo{
+    background-color: black;
+    height: 90vh;
+    color: white;
+    padding: 20%;
+}
+
+#habilidades{
+/*  background-color: aquamarine; */
+    height: 100vh;
+}
+
+#intro{
+    /* background-color: black; */
+    height: 100vh;
+}
+
+
+#contacto{
+    margin: auto;
+    height: 100vh;
+    background-color:antiquewhite;
+    padding: 20%;
+}
+
+#proyectos{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+#ilustracion{
+    background-color: brown;
+    height: 100vh;
+}
+
+#info{
+    background-image: url("imagenes/fondo2.svg");
+    height: 100%;
+    width: 100%;
+}
