@@ -3,16 +3,44 @@
 }
 
 
-nav{
-    background-color: beige;
+#menu{
+    background-color: black;
     height: 10vh;
+    text-align: center; 
+    padding-top: 2%;
+    font-family: 'Kalnia', serif;
+}
+
+/*li{
+   /*  display: inline-block;*/
+
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:active{
+    color: white;
+}
+
+a:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 #titulo{
     background-color: black;
     height: 90vh;
     color: white;
-    padding: 20%;
+    padding-top: 25%;
+    text-align: center;
+    font-family: 'Kalnia', serif;
 }
 
 #habilidades{
@@ -34,17 +62,20 @@ nav{
 }
 
 #proyectos{
-    background-color: blueviolet;
+   /* background-color: blueviolet; */
     height: 100vh;
 }
 
 #ilustracion{
-    background-color: brown;
+    /* background-color: brown; */
     height: 100vh;
 }
 
 #info{
     background-image: url("imagenes/fondo2.svg");
-    height: 100%;
-    width: 100%;
+    background-size: cover;
+}
+
+.carrusel{
+    height: 100vh;
 }
