@@ -4,78 +4,202 @@
 
 
 #menu{
-    background-color: black;
+    background-color: rgb(19, 19, 19); 
     height: 10vh;
     text-align: center; 
     padding-top: 2%;
     font-family: 'Kalnia', serif;
 }
 
+#fondo{
+    background-color: black; 
+}
+
+
+
 /*li{
    /*  display: inline-block;*/
 
 
-a:link{
+
+.nav-link:link{
     text-decoration: none;
     color: white;
 }
 
-a:visited{
+.nav-link:visited{
     color: white;
 }
 
-a:active{
+.nav-link:active{
     color: white;
 }
 
-a:hover{
-    color: white;
+.nav-link:hover{
+    color: #4286a1;
     font-weight: bold;
     font-size: 1.1em;
 }
 
 #titulo{
-    background-color: black;
+    background-image: url("imagenes/Ilustración_sin_título\ 9.jpg") ;
+    background-size: cover;
+    background-clip: border-box;
     height: 90vh;
     color: white;
     padding-top: 25%;
     text-align: center;
     font-family: 'Kalnia', serif;
+    font-size: 2em;
 }
 
 #habilidades{
-/*  background-color: aquamarine; */
+ 
     height: 100vh;
+   padding-top: 20%;
+    padding-left: 9%;
+    
+}
+
+#hola{
+    margin-bottom: 10%;
+    font-size: 3em;
+    color: #4286a1;
+    font-family: 'Kalnia', serif;
+    font-weight: bolder;
+}
+
+#texto{
+    background-color: rgb(237, 230, 223);
+}
+
+.ContenedorFlex{
+    
+    height: 30vh;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 10%;
+    font-family: 'Kalnia', serif;
+    
+
+}
+
+.ElementoFlex{
+    height: 45%;
+    width: 33%;
+}
+
+.ElementoFlex:hover{
+    transform: scale(1.5, 1.5)
 }
 
 #intro{
     /* background-color: black; */
     height: 100vh;
+   
 }
 
+#herramientas{
+    font-size: 1.2em;
+    margin-top: 35%;
+    margin-left: 20%;
+    font-family: 'Kalnia', serif;
+  
+}
 
 #contacto{
     margin: auto;
     height: 100vh;
-    background-color:antiquewhite;
+    width: 100%;
+    background-color: rgb(236, 233, 229); 
     padding: 20%;
+    
+}
+
+#contactame{
+    font-size: 2em;
+    color: #4286a1;
+    font-family: 'Kalnia', serif;
+    font-weight: bolder;
+    margin-bottom: 6%;
 }
 
 #proyectos{
    /* background-color: blueviolet; */
-    height: 100vh;
+    height: 50vh;
+    background-color:rgb(19, 19, 19);
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.caca{
+    color: beige;
+    padding-top: 10%;
+    font-size: 400%;
+    font-family: 'Kalnia', serif;
+    
+    
+}
+.caca:link{
+    
+    text-decoration: none;
+}
+
+.caca:hover{
+    color: beige;
+   
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.caca:active{
+    color: beige;
+  
+}
+
+.caca:visited{
+    color: beige;
+  
 }
 
 #ilustracion{
     /* background-color: brown; */
-    height: 100vh;
+    height: 50vh;
+    background-color:rgb(19, 19, 19);
+    text-align: center;
+    padding-top: 10%;
 }
 
 #info{
-    background-image: url("imagenes/fondo2.svg");
+    background-image: url("imagenes/FONDO2.jpg");
     background-size: cover;
+   
 }
 
-.carrusel{
-    height: 100vh;
+
+#diseñoweb{
+    color: #4286a1;
+    font-family: 'Kalnia', serif;
+    font-size: 1.5em;
+    margin-top: 10%;
+}
+
+#diseñoweb:hover{
+    text-shadow: 0 0 3px #87b2e7;
+}
+
+
+#Packaging{
+    color: #c5798f;
+    font-family: 'Kalnia', serif;
+    font-size: 1.5em;
+}
+
+#Packaging:hover{
+    text-shadow: 0 0 3px  #d7afba;
 }
