@@ -1,67 +1,70 @@
-*{
-   margin: auto; 
+* {
+    margin: auto;
 }
 
 
-#menu{
-    background-color: rgb(19, 19, 19); 
-    height: 10vh;
-    text-align: center; 
-    padding-top: 2%;
+
+#menu {
+    background-color: rgb(19, 19, 19);
+    height: 7.5vh;
+    text-align: center;
     font-family: 'Kalnia', serif;
 }
 
-#fondo{
-    background-color: black; 
+#fondo {
+    background-color: black;
 }
 
-
-
-/*li{
-   /*  display: inline-block;*/
-
-
-
-.nav-link:link{
+.nav-link:link {
     text-decoration: none;
     color: white;
 }
 
-.nav-link:visited{
+.nav-link:visited {
     color: white;
 }
 
-.nav-link:active{
+.nav-link:active {
     color: white;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #4286a1;
     font-weight: bold;
     font-size: 1.1em;
 }
 
-#titulo{
-    background-image: url("imagenes/FONDO1.jpg") ;
+
+
+#titulo {
+    background-image: url("imagenes/FONDO1.jpg");
     background-size: cover;
     background-clip: border-box;
-    height: 90vh;
+    height: 92.5vh;
     color: white;
     padding-top: 25%;
     text-align: center;
     font-family: 'Kalnia', serif;
-    font-size: 3em;
+    font-size: 9em;
 }
 
-#habilidades{
- 
+
+#info {
+    background-image: url("imagenes/FONDO2.jpg");
+    background-size: cover;
+}
+
+#habilidades {
     height: 100vh;
-   padding-top: 20%;
+    padding-top: 15%;
     padding-left: 9%;
-    
 }
 
-#hola{
+#texto {
+    background-color: rgb(236, 233, 229);
+}
+
+#hola {
     margin-bottom: 10%;
     font-size: 3em;
     color: #4286a1;
@@ -69,59 +72,107 @@
     font-weight: bolder;
 }
 
-#texto{
-    background-color: rgb(236, 233, 229);
+#diseñoweb {
+    color: #4286a1;
+    font-family: 'Kalnia', serif;
+    font-size: 1.5em;
+    margin-top: 10%;
 }
 
-.ContenedorFlex{
-    
+#diseñoweb:hover {
+    text-shadow: 0 0 3px #87b2e7;
+}
+
+#Packaging {
+    color: #c5798f;
+    font-family: 'Kalnia', serif;
+    font-size: 1.5em;
+}
+
+#Packaging:hover {
+    text-shadow: 0 0 3px #d7afba;
+}
+
+
+
+#intro {
+    height: 100vh;
+}
+
+#herramientas {
+    font-size: 1.2em;
+    margin-top: 35%;
+    margin-left: 20%;
+    font-family: 'Kalnia', serif;
+}
+
+.ContenedorFlex {
     height: 30vh;
     width: 60%;
     display: flex;
     flex-flow: row wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     align-content: space-between;
     margin-top: 10%;
     font-family: 'Kalnia', serif;
-    
-
 }
 
-.ElementoFlex{
+.ElementoFlex {
     height: 45%;
     width: 33%;
 }
 
-.ElementoFlex:hover{
+.ElementoFlex:hover {
     transform: scale(1.5, 1.5)
 }
 
-#intro{
-    /* background-color: black; */
-    height: 100vh;
-   
+
+
+#proyectos {
+    height: 60vh;
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    text-align: center;
 }
 
-#herramientas{
-    font-size: 1.2em;
-    margin-top: 45%;
-    margin-left: 20%;
+.linkproyectos {
+    color: beige;
+    padding-top: 30%;
+    font-size: 300%;
     font-family: 'Kalnia', serif;
-   
-  
+    margin-bottom: 20%;
 }
 
-#contacto{
+.linkproyectos:link {
+    text-decoration: none;
+}
+
+.linkproyectos:hover {
+    color: beige;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.linkproyectos:active {
+    color: beige;
+}
+
+.linkproyectos:visited {
+    color: beige;
+}
+
+
+
+#contacto {
     margin: auto;
     height: 100vh;
     width: 100%;
-    background-color: rgb(236, 233, 229); 
+    background-color: rgb(236, 233, 229);
     padding: 20%;
-    
+
 }
 
-#contactame{
+#contactame {
     font-size: 2em;
     color: #4286a1;
     font-family: 'Kalnia', serif;
@@ -129,99 +180,18 @@
     margin-bottom: 6%;
 }
 
-#proyectos{
-   /* background-color: blueviolet; */
-    height: 50vh;
-    background-color:rgb(19, 19, 19);
-    width: 100%;
-    text-align: center;
-    padding-top: 10%;
-}
-
-
-.caca{
-    color: beige;
-    padding-top: 10%;
-    font-size: 400%;
-    font-family: 'Kalnia', serif;
-    
-    
-}
-.caca:link{
-    
-    text-decoration: none;
-}
-
-.caca:hover{
-    color: beige;
-   
-    text-shadow: 0 0 3px #ffffff;
-}
-
-.caca:active{
-    color: beige;
-  
-}
-
-.caca:visited{
-    color: beige;
-  
-}
-
-#ilustracion{
-    /* background-color: brown; */
-    height: 50vh;
-    background-color:rgb(19, 19, 19);
-    text-align: center;
-    padding-top: 10%;
-}
-
-#info{
-    background-image: url("imagenes/FONDO2.jpg");
-    background-size: cover;
-   
-}
-
-
-#diseñoweb{
-    color: #4286a1;
-    font-family: 'Kalnia', serif;
-    font-size: 1.5em;
-    margin-top: 10%;
-}
-
-#diseñoweb:hover{
-    text-shadow: 0 0 3px #87b2e7;
-}
-
-
-#Packaging{
-    color: #c5798f;
-    font-family: 'Kalnia', serif;
-    font-size: 1.5em;
-}
-
-#Packaging:hover{
-    text-shadow: 0 0 3px  #d7afba;
-}
-
-
-.ContenedorFlex2{
-    
+.ContenedorFlex2 {
     height: 10vh;
     width: 60%;
     display: flex;
     flex-flow: row wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    margin-top: 27%;
-  
-    
-
+    margin-top: 20%;
 }
 
-.ElementoFlex2{
+.ElementoFlex2 {
     height: 100%;
     width: 33%;
 }

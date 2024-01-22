@@ -1,0 +1,45 @@
+* {
+    margin: auto;
+}
+
+#primer {
+    height: 50vh;
+    background-color: rgb(19, 19, 19);
+}
+
+#segundo {
+    height: 50vh;
+    background-image: url("imagenes/FONDO2.jpg");
+    background-size: cover;
+}
+
+#tercero {
+    height: 50vh;
+    background-color: rgb(19, 19, 19);
+}
+
+.t1 {
+    color: beige;
+    font-family: 'Kalnia', serif;
+    font-size: 1.6em;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.text1 {
+    color: beige;
+    padding-left: 10%;
+}
+
+.t2 {
+    color: rgb(19, 19, 19);
+    font-family: 'Kalnia', serif;
+    font-size: 1.6em;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.text2 {
+    color: rgb(19, 19, 19);
+    padding-left: 10%;
+}
